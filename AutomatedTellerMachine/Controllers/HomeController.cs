@@ -12,6 +12,8 @@ namespace AutomatedTellerMachine.Controllers
         [MyLogginFilter]
         public ActionResult Index()
         {
+            // throw new StackOverflowException();
+
             return View();
         }
         // /Home/About
